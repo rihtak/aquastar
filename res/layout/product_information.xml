@@ -14,10 +14,27 @@
         layout="@layout/product_details" />
 
     <View
+        android:id="@+id/view1"
         android:layout_width="fill_parent"
         android:layout_height="1dip"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/include1"
         android:background="#000" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view1"
+        android:text="@string/issues"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        layout="@layout/issues_list_row" />
 
 </RelativeLayout>

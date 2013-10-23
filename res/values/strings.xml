@@ -31,6 +31,10 @@
     <string name="date">Date</string>
     <string name="date_format">DD/MM/YYY</string>
     <string name="issues">Issues</string>
+    <string name="issue_id">(3004)</string>
+    <string name="Issue_label">I:</string>
+    <string name="status">Status</string>
+    <string name="not_started">Not Started</string>
 
 
 </resources>

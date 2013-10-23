@@ -1,61 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="8dp"
-    android:background="@drawable/list_selector">
+    android:background="@drawable/list_selector"
+    android:orientation="vertical"
+    android:padding="8dp" >
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Issue on"
         android:id="@+id/customer_name"
-        android:layout_gravity="left|center_vertical"
         style="@style/customer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true" />
+        android:layout_gravity="left|center_vertical"
+        android:text="@string/issues"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Mylapore"
         android:id="@+id/customer_location"
-        android:layout_gravity="left|center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_below="@+id/customer_name"
-        android:layout_alignParentLeft="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="9840888322"
-        android:id="@+id/customer_phone"
         android:layout_gravity="left|center_vertical"
-        android:layout_below="@+id/customer_location"
-        android:layout_alignParentLeft="true" />
+        android:text="@string/Issue_label"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="P-2"
-        style="@style/customer_list_count"
-        android:id="@+id/customer_product_count"
-        android:layout_marginRight="17dp"
-        android:layout_alignBottom="@+id/customer_location"
-        android:layout_toLeftOf="@+id/textView5" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text=">"
         android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/customer_location"
+        android:layout_alignParentRight="true"
         android:layout_marginRight="23dp"
-        android:layout_alignBottom="@+id/customer_product_count"
-        android:layout_alignParentRight="true" />
+        android:text=">"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/customer_location"
+        android:layout_alignBottom="@+id/customer_location"
+        android:layout_toRightOf="@+id/customer_location"
+        android:text="@string/date_format"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/customer_location"
+        android:layout_below="@+id/customer_location"
+        android:text="@string/status"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/customer_name"
+        android:layout_alignBottom="@+id/customer_name"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="@string/issue_id"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignRight="@+id/textView1"
+        android:text="@string/not_started"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </RelativeLayout>
