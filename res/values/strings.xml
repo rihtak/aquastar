@@ -21,6 +21,15 @@
     <string name="customer_list">Customer List</string>
     <string name="service_list">Service List</string>
     <string name="issue_list">Issue List</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="address1">Address 1</string>
+    <string name="address2">Address 2</string>
+    <string name="city">City</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="product_name">Product Name</string>
+    <string name="model_name">Model Name</string>
+    <string name="date">Date</string>
+    <string name="date_format">DD/MM/YYY</string>
 
 
 </resources>
