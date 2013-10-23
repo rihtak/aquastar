@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:background="#cccccc"
+    android:showDividers="middle">
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_weight="1"
+        android:background="@android:drawable/title_bar"
+        android:adjustViewBounds="false"
+        android:src="@android:drawable/ic_menu_view"
+        android:padding="10dp" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_weight="1"
+        android:background="@android:drawable/title_bar"
+        android:src="@android:drawable/ic_menu_share"
+        android:padding="10dp" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_weight="1"
+        android:background="@android:drawable/title_bar"
+        android:src="@android:drawable/ic_menu_compass"
+        android:padding="10dp" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton4"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_weight="1"
+        android:background="@android:drawable/title_bar"
+        android:src="@android:drawable/ic_menu_search"
+        android:padding="10dp" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton5"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_weight="1"
+        android:background="@android:drawable/title_bar"
+        android:src="@android:drawable/ic_menu_set_as"
+        android:padding="10dp" />
+</LinearLayout>

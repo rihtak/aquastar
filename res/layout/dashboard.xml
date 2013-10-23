@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/dashboard"
+        android:id="@+id/textView"
+        style="@style/dashboard_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#ccc"
+        android:id="@+id/view"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/total_issue"
+        android:id="@+id/textView5"
+        style="@style/dashboard_label"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_alignLeft="@+id/issue_button"
+        android:layout_alignRight="@+id/issue_button"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/total_customer"
+        android:id="@+id/textView6"
+        style="@style/dashboard_label"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_below="@+id/customer_button"
+        android:layout_alignLeft="@+id/customer_button"
+        android:layout_alignRight="@+id/customer_button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/total_service"
+        android:id="@+id/textView7"
+        style="@style/dashboard_label"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_below="@+id/service_button"
+        android:layout_alignLeft="@+id/service_button"
+        android:layout_alignRight="@+id/service_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="985"
+        android:id="@+id/customer_button"
+        style="@style/dashboard_oval"
+        android:layout_alignTop="@+id/view"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:onClick="customer_list" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="45"
+        android:id="@+id/service_button"
+        style="@style/dashboard_oval"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="89"
+        android:id="@+id/issue_button"
+        style="@style/dashboard_oval"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/view"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>

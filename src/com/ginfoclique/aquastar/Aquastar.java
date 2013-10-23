@@ -1,8 +1,10 @@
 package com.ginfoclique.aquastar;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.View;
 
 public class Aquastar extends Activity {
 
@@ -18,5 +20,10 @@ public class Aquastar extends Activity {
 		getMenuInflater().inflate(R.menu.aquastar, menu);
 		return true;
 	}
+    public void login(View view)
+    {
+        Intent loginIntent = new Intent(getApplicationContext(),Dashboard.class);
+        startActivity(loginIntent);
+    }
 
 }
