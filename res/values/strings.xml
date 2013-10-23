@@ -30,6 +30,7 @@
     <string name="model_name">Model Name</string>
     <string name="date">Date</string>
     <string name="date_format">DD/MM/YYY</string>
+    <string name="issues">Issues</string>
 
 
 </resources>
