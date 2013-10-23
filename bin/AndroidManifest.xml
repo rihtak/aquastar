@@ -18,10 +18,19 @@
             android:label="@string/app_name"
             android:theme="@style/no_title"  >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />1`
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ginfoclique.aquastar.Dashboard"
+            android:theme="@style/no_title"  >
+        </activity>
+        <activity
+            android:name=".CustomerList"
+            android:label="@string/customer_list"
+            android:theme="@style/AppTheme"  >
         </activity>
     </application>
 
