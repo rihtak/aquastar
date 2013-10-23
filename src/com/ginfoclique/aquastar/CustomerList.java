@@ -10,6 +10,6 @@ public class CustomerList extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.customer_list);
+        setContentView(R.layout.customer_list_row);
     }
 }

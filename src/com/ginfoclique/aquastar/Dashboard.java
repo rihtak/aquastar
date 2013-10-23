@@ -21,4 +21,14 @@ public class Dashboard extends Activity {
         startActivity(Customer_listIntent);
 
     }
+    public void serviceList(View view)
+    {
+    	Intent service_listIntent = new Intent(getApplicationContext(),ServiceList.class);
+        startActivity(service_listIntent);
+    }
+    public void issueList(View view)
+    {
+    	Intent issue_listIntent = new Intent(getApplicationContext(),IssueList.class);
+        startActivity(issue_listIntent);
+    }
 }

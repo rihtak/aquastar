@@ -19,6 +19,8 @@
     <string name="total_completed">Total Completed</string>
     <string name="total_pending">Total Pending</string>
     <string name="customer_list">Customer List</string>
+    <string name="service_list">Service List</string>
+    <string name="issue_list">Issue List</string>
 
 
 </resources>
