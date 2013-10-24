@@ -11,24 +11,30 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="16dp"
-        layout="@layout/customer_address_details" />
+        layout="@layout/product_details" />
 
-    <include
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/include1"
-        android:layout_marginTop="22dp"
-        layout="@layout/contact_menu" />
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view1"
+        android:text="@string/issues"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <include
-        android:id="@+id/include2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
-        layout="@layout/customer_product_info" />
+        android:layout_below="@+id/textView1"
+        layout="@layout/issues_list_row" />
 
 </RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@drawable/list_selector">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vinoth Kumar ( 1450 )"
+        android:id="@+id/customer_name"
+        android:layout_gravity="left|center_vertical"
+        style="@style/customer_name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Mylapore"
+        android:id="@+id/customer_location"
+        android:layout_gravity="left|center_vertical"
+        android:layout_below="@+id/customer_name"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="9840888322"
+        android:id="@+id/customer_phone"
+        android:layout_gravity="left|center_vertical"
+        android:layout_below="@+id/customer_location"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/customer_product_count"
+        style="@style/customer_list_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/customer_location"
+        android:layout_marginRight="43dp"
+        android:text="P-2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/customer_location"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/arrow" />
+
+</RelativeLayout>

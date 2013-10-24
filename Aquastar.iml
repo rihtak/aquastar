@@ -9,6 +9,7 @@
         <option name="RES_FOLDER_RELATIVE_PATH" value="/./res" />
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/./assets" />
         <option name="LIBS_FOLDER_RELATIVE_PATH" value="/./libs" />
+        <option name="UPDATE_PROPERTY_FILES" value="true" />
         <resOverlayFolders>
           <path>/./res-overlay</path>
         </resOverlayFolders>
@@ -21,7 +22,7 @@
       <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Android 4.3 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 17 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
