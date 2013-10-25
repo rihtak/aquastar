@@ -33,9 +33,7 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e538e280-a8af-43f0-b932-8735fd9c12cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_aquastar.xml" afterPath="$PROJECT_DIR$/res/layout/activity_aquastar.xml" />
-    </list>
+    <list default="true" id="e538e280-a8af-43f0-b932-8735fd9c12cf" name="Default" comment="" />
     <ignored path="Aquastar.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
