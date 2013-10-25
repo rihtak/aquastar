@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_weight="1"
+        android:background="@android:drawable/title_bar"
+        android:adjustViewBounds="false"
+        android:src="@android:drawable/ic_dialog_map"
+        android:padding="10dp" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:layout_weight="1"
+        android:background="@android:drawable/title_bar"
+        android:src="@android:drawable/ic_menu_call"
+        android:padding="10dp" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:layout_weight="1"
+        android:background="@android:drawable/title_bar"
+        android:src="@android:drawable/ic_menu_send"
+        android:padding="10dp" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton4"
+        android:layout_weight="1"
+        android:background="@android:drawable/title_bar"
+        android:src="@android:drawable/ic_menu_directions"
+        android:padding="10dp" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton5"
+        android:layout_weight="1"
+        android:background="@android:drawable/title_bar"
+        android:src="@android:drawable/ic_menu_view"
+        android:padding="10dp" />
+</LinearLayout>

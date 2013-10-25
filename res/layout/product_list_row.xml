@@ -14,7 +14,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_gravity="left|center_vertical"
-        android:text="@string/product_name"
+        android:text="Aqua tank (A1542) "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/customer_name"
-        android:text="@string/model_name"
+        android:text="@string/product_info"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </RelativeLayout>

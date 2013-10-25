@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView1"
+        style="@style/customer_name"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/customer_name"
-        style="@style/customer_name"
+        android:text="Siva (1452)"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -40,5 +40,4 @@
         android:text="@string/phone_no"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textSize="11dp" />
-
 </LinearLayout>

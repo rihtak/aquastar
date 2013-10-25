@@ -3,4 +3,38 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/issue_product_info"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:id="@+id/include" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#ccc"
+
+        android:layout_below="@+id/include"
+        android:layout_alignParentLeft="true" />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/issue_details"
+        android:layout_below="@+id/include"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/include2" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#ccc"
+
+        android:layout_below="@+id/include2"
+        android:layout_alignParentLeft="true" />
 </RelativeLayout>

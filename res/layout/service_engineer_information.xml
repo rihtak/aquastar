@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/RelativeLayout1"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
 
     <include
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        layout="@layout/customer_address_details"
+        layout="@layout/service_engineer_address_details"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:id="@+id/include"
@@ -18,7 +15,7 @@
     <include
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        layout="@layout/contact_menu"
+        layout="@layout/service_engineer_contact_menu"
         android:layout_below="@+id/include"
         android:layout_alignParentLeft="true"
         android:id="@+id/include2" />
@@ -27,10 +24,11 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Products"
+        android:text="@string/issues"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_below="@+id/include2"
         android:layout_alignParentLeft="true" />
+
     <View
         android:id="@+id/view1"
         android:layout_width="fill_parent"
@@ -40,19 +38,11 @@
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true" />
 
-    <ScrollView
-        android:layout_width="wrap_content"
+    <include
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/scrollView"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true" >
-
-        <include
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            layout="@layout/product_list_row" />
-    </ScrollView>
+        layout="@layout/service_engineer_issue_list"
+        android:layout_alignTop="@+id/view1"
+        android:layout_alignParentLeft="true" />
 
 </RelativeLayout>

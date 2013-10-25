@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/list_selector"
     android:orientation="vertical"
-    android:padding="8dp" >
+    android:padding="8dp"
+    android:id="@+id/relativeLayout">
 
     <TextView
-        android:id="@+id/customer_name"
         style="@style/customer_name"
+        android:id="@+id/customer_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="false"
         android:layout_alignParentTop="false"
         android:layout_gravity="left|center_vertical"
-        android:text="Tank leak repair (1452)"
+        android:text="Vinoth Kumar (1452)"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -31,7 +33,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Issue Date:12.02.2013 | Resolve Date:13.02.2013"
+        android:text="Issue Date:12.02.2013 | Resolve Date: -"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_below="@+id/customer_name"
         android:layout_alignParentLeft="true" />
@@ -40,9 +42,8 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Status : Completed"
+        android:text="Status : Not Yet Stated"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_below="@+id/textView2"
         android:layout_alignParentLeft="true" />
-
 </RelativeLayout>
