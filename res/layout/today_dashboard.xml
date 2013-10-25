@@ -87,7 +87,7 @@
         android:id="@+id/view2"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/issue_dd"
         android:layout_alignParentRight="true" />
 
     <Button
@@ -105,7 +105,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/today"
-        android:id="@+id/textView2"
+        android:id="@+id/issue_dd"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true" />
 
@@ -115,7 +115,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/total_issue"
         style="@style/dashboard_label"
-        android:id="@+id/textView3"
+        android:id="@+id/status_txt"
         android:layout_below="@+id/button"
         android:layout_alignLeft="@+id/button"
         android:layout_alignRight="@+id/button"

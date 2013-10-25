@@ -7,7 +7,7 @@
     android:padding="8dp" >
 
     <TextView
-        android:id="@+id/customer_name"
+        android:id="@+id/issue_name"
         style="@style/customer_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,11 +18,11 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/date_details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/customer_name"
+        android:layout_below="@+id/issue_name"
         android:text="@string/product_info"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 

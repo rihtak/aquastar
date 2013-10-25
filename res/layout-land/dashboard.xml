@@ -92,7 +92,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/today"
-        android:id="@+id/textView2"
+        android:id="@+id/issue_dd"
         android:layout_below="@+id/textView7"
         android:layout_alignLeft="@+id/textView6" />
 

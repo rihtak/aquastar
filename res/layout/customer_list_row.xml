@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Vinoth Kumar ( 1450 )"
-        android:id="@+id/customer_name"
+        android:id="@+id/issue_name"
         android:layout_gravity="left|center_vertical"
         style="@style/customer_name"
         android:layout_alignParentTop="true"
@@ -24,7 +24,7 @@
         android:text="Mylapore"
         android:id="@+id/customer_location"
         android:layout_gravity="left|center_vertical"
-        android:layout_below="@+id/customer_name"
+        android:layout_below="@+id/issue_name"
         android:layout_alignParentLeft="true" />
 
     <TextView
@@ -46,15 +46,14 @@
         android:layout_alignTop="@+id/customer_location"
         android:layout_marginRight="43dp"
         android:text="P-2"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/customer_location"
+        android:layout_alignBottom="@+id/customer_phone"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="16dp"
         android:src="@drawable/arrow" />
 
 </RelativeLayout>

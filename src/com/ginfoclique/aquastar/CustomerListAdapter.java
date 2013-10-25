@@ -46,7 +46,7 @@ public class CustomerListAdapter extends BaseAdapter {
         if(convertView==null)
             vi = inflater.inflate(R.layout.customer_list_row, null);
 
-        TextView customer_name = (TextView)vi.findViewById(R.id.customer_name); // title
+        TextView customer_name = (TextView)vi.findViewById(R.id.issue_name); // title
         TextView customer_location = (TextView)vi.findViewById(R.id.customer_location); // artist name
         TextView customer_phone = (TextView)vi.findViewById(R.id.customer_phone); // duration
         TextView customer_product_count=(TextView)vi.findViewById(R.id.customer_product_count); // thumb image

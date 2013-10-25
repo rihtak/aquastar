@@ -18,12 +18,11 @@
         android:id="@+id/view1"
         android:layout_width="fill_parent"
         android:layout_height="1dip"
-        android:background="#ccc"
-        android:layout_above="@+id/include"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:background="#ccc" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/date_details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/issues"
@@ -32,12 +31,12 @@
         android:layout_alignParentLeft="true"
         android:layout_margin="5dp" />
 
-    <include
+    <ListView
+        android:id="@+id/issuesListView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        layout="@layout/issues_list_row"
-        android:id="@+id/include" />
+        android:layout_alignLeft="@+id/date_details"
+        android:layout_below="@+id/date_details" >
+    </ListView>
 
 </RelativeLayout>
